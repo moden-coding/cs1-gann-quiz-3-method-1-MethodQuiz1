@@ -38,7 +38,7 @@
  * Modify computeArea() so from task 3 so that:
  * 
  * 1. Negative values for length or height return a value of -1
- * 2. Too large values (greater than 1000) for length or height return a value of -1
+ * 2. Too large values (greater than 100) for length or height return a value of -1
  * 
  * STOP HERE FOR: 'A'
  ##############################################################################################
@@ -83,7 +83,7 @@ public class App {
         // System.out.println("Task 4:");
         // System.out.println(computeArea(5, 3)); // 15.0
         // System.out.println(computeArea(-2, 8)); // -1.0 (invalid)
-        // System.out.println(computeArea(100, 1)); // -1.0 (too large)
+        // System.out.println(computeArea(101, 1)); // -1.0 (too large)
 
 
         //A+ range
